@@ -296,7 +296,7 @@ div.hapolearn-footer-ul a {
 }
 
 .hapolearn-why {
-  background-image: url(../img/background\ 2\ black.png);
+  background-image: url(../img/background2black.png);
   height: 740px;
   margin-top: 116px;
   display: flex;
@@ -338,3 +338,4 @@ div.hapolearn-footer-ul a {
 .hapolearn-why-left > p > img {
   margin-right: 11px;
 }
+
