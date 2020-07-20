@@ -80,9 +80,7 @@ header.hapolearn-header a:hover {
   width: 100%;
   background-color: #454545;
   color: white;
-  font-style: normal;
-  font-weight: normal;
-  font: normal 15px/18px;
+  font: normal 15px/18px UTM;
   letter-spacing: -0.05em;
   height: 38px;
   text-align: center;
@@ -93,7 +91,7 @@ header.hapolearn-header a:hover {
 
 .hapolearn-footer-img {
   color: white;
-  font: normal 20px/25px;
+  font: normal 20px/25px UTM;
   letter-spacing: -0.05em;
   padding-top: 46px;
 }
@@ -106,9 +104,7 @@ header.hapolearn-header a:hover {
 .hapolearn-footer-ul {
   color: white;
   font-style: normal;
-  font-weight: bold;
-  font-size: 23px;
-  line-height: 28px;
+  font: bold 23px/28px UTM;
   letter-spacing: -0.05em;
   align-self: baseline;
 }
