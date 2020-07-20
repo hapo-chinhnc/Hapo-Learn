@@ -132,3 +132,48 @@ div.hapolearn-footer-ul a {
   padding-right: 35px;
 }
 
+.hapolearn-banner {
+  background: url(../img/learn.png) no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 655px;
+  color: #11114E;
+  letter-spacing: -0.05em;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hapolearn-banner h1 {
+  font: normal 50px/61px UTM;
+}
+
+.hapolearn-banner b {
+  font-weight: bold;
+}
+
+.hapolearn-banner p {
+  font: normal 20px/25px UTM;
+  letter-spacing: -0.05em;
+  margin-top: -30px;
+}
+
+.hapolearn-banner a {
+  text-decoration: none;
+  color: white;
+  font: bold 30px/37px UTM;
+  background-color: #B2D235;
+  height: 70px;
+  width: 377px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hapolearn-banner a:hover {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+
