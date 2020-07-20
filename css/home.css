@@ -47,11 +47,7 @@ header.hapolearn-header li {
 
 header.hapolearn-header a {
   text-decoration: none;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 19px;
+  font: bold 15px/19px 'Open Sans';
   text-transform: uppercase;
   color: black;
   padding: 8px;
