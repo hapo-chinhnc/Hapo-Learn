@@ -7,14 +7,14 @@
 
 @font-face {
   font-family: 'UTM';
-  src: url(../fonts/UTM\ BryantLG.ttf);
+  src: url(../fonts/UTMBryantLG.ttf);
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'UTM';
-  src: url(../fonts/UTM\ BryantLG_B.ttf);
+  src: url(../fonts/UTMBryantLG_B.ttf);
   font-weight: bold;
 }
 
@@ -177,3 +177,73 @@ div.hapolearn-footer-ul a {
   border-radius: 35px;
 }
 
+.hapolearn-blankspace {
+  width: 100%;
+  height: 161px;
+  background-image: linear-gradient(white, #E5E5E5);
+}
+
+.hapolearn-courses {
+  display: flex;
+  justify-content: center;
+}
+
+.hapolearn-courses-items {
+  width: 370px;
+  height: 470px;
+  background-color: #11114E;
+  margin-right: 30px;
+  margin-top: -117px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.hapolearn-courses-items-img {
+  height: 50%;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hapolearn-courses-items-text {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  border-radius: 0 0 15px 15px;
+}
+
+.hapolearn-courses-items-text h1 {
+  font: bold 30px/37px UTM;
+  color: #B2D235;
+  margin: 10px 0 15px 0;
+}
+
+.hapolearn-courses-items-text p {
+  font: bold 14px/20px UTM;
+  color: #505353;
+  text-align: center;
+  margin: 0 37px 0 37px;
+
+}
+
+.hapolearn-courses-items-text a {
+  text-decoration: none;
+  background-color: #B2D235;
+  width: 200px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold 18px/22px UTM;
+  color: white;
+  border-radius: 22px;
+  margin-top: 15px;
+}
