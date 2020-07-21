@@ -369,9 +369,8 @@ div.hapolearn-footer-ul a {
 }
 
 .hapolearn-feedback-items-infor-quote {
-  background-image: url(../img/slider.png);
+  background: url(../img/slider.png) no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
   width: 570px;
   height: 185px;
   margin-bottom: 10px;
@@ -385,10 +384,8 @@ div.hapolearn-footer-ul a {
 
 .hapolearn-quote-borderleft {
   border-left: 5px solid #D9DADC;
-  padding: 0 20px 0 20px;
+  padding: 20px;
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-left: 45px;
 }
 
