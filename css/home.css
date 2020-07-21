@@ -343,7 +343,7 @@ div.hapolearn-footer-ul a {
 .hapolearn-feedback {
   width: 100%;
   display: flex;
-  margin: 110px 0 110px 0;
+  margin: 110px 0;
   height: auto;
   flex-direction: column;
   align-items: center;
