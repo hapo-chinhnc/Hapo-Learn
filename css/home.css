@@ -340,3 +340,90 @@ div.hapolearn-footer-ul a {
   margin-right: 11px;
 }
 
+.hapolearn-feedback {
+  width: 100%;
+  display: flex;
+  margin: 110px 0;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hapolearn-feedback > p {
+  color: #505353;
+  font: normal 25px/31px UTM;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.hapolearn-feedback-items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hapolearn-feedback-items-infor {
+  width: 570px;
+  margin: 0 15px 0 15px;
+}
+
+.hapolearn-feedback-items-infor-quote {
+  background: url(../img/slider.png) no-repeat;
+  background-size: cover;
+  width: 570px;
+  height: 185px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hapolearn-feedback-items-infor-quote > p {
+  font: normal 16px/20px UTM;
+}
+
+.hapolearn-quote-borderleft {
+  border-left: 5px solid #D9DADC;
+  padding: 20px;
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.hapolearn-feedback-items-infor-person {
+  height: 60px;
+  width: auto;
+  margin-left: 25px;
+  display: flex;
+}
+
+.hapolearn-feedback-items-infor-person > h2 {
+  margin: 0 0 0 10px;
+  font: bold 20px/25px UTM;
+}
+
+.hapolearn-feedback-items-infor-person-text {
+  width: auto;
+  height: 60px;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.hapolearn-feedback-items-infor-person-text > h1 {
+  font: bold 20px/25px UTM;
+  color: #11114E;
+  margin: 0;
+}
+
+.hapolearn-feedback-items-infor-person-text > p {
+  font: normal 16px/20px UTM;
+  color: #505353;
+  margin: 0;
+}
+
+.hapolearn-feedback-items-infor-person-text > i {
+  font-size: 14px;
+  color: #F2C54F;
+  margin: 0 5px 0 0;
+  float: left;
+}
+
