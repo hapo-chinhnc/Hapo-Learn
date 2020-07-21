@@ -427,3 +427,61 @@ div.hapolearn-footer-ul a {
   float: left;
 }
 
+.hapolearn-banner2 {
+  height: 500px;
+  width: 100%;
+  background: url(../img/Member.png) no-repeat;
+  background-size: contain;
+  margin-bottom: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hapolearn-banner2 > h1 {
+  font: bold 60px/74px UTM;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+
+.hapolearn-banner2 > a {
+  background-color: white;
+  text-decoration: none;
+  color: #90AB26;
+  font: bold 30px/37px UTM;
+  padding: 14px 67px;
+  border-radius: 35px;
+}
+
+.hapolearn-banner2 > a:hover {
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hapolearn-statistic {
+  width: 100%;
+}
+
+.hapolearn-statistic-data {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hapolearn-statistic-data-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hapolearn-statistic-data-text > h1 {
+  font: bold 60px/74px UTM;
+  color: #505353;
+  margin: 0;
+}
+
+.hapolearn-statistic-data-text > h2 {
+  font: bold 60px/74px UTM;
+  color: #B2D235;
+  margin-bottom: 136px;
+}
