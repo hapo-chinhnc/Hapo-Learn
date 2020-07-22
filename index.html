@@ -88,7 +88,7 @@
                     <a href="#">Take This Course</a>
                 </div>
             </div>
-            <a href="#">View All Our Courses <img src="img/arrow.png" style="vertical-align: middle;"></a>
+            <a href="#">View All Our Courses<img src="img/arrow.png" style="vertical-align: middle;"></a>
         </section>
         <section class="hapolearn-why">
             <div class="hapolearn-why-left">
@@ -178,17 +178,17 @@
             </div>
         </section>
         <section class="hapolearn-messenger">
-            <div class="hapolearn-messenger-chatbox">
+            <div class="hapolearn-messenger-chatbox" id="chat_box">
                 <div class="hapolearn-messenger-chatbox-text">
                     <div class="hapolearn-messenger-chatbox-text-img">
                         <img src="img/ower-small.png">
                     </div>
                     <div class="hapolearn-messenger-chatbox-text-chat">
                         <h6>Hapo Learn</h6>
-                        <p>HapoLearn xin chào bạn.<br>Bạn có cần chúng tôi hỗ trợ gì không?</p>
+                        <p>Hapo Learn xin chào bạn<br>Bạn có cần chúng tôi hỗ trợ gì không ?</p>
                     </div>
                     <div class="hapolearn-messenger-chatbox-text-close">
-                        <i class="fas fa-times-circle"></i>
+                        <i class="fas fa-times-circle" onclick="closeDiv('chat_box')"></i>
                     </div>
                 </div>
                 <div class="hapolearn-messenger-chatbox-login">
@@ -196,7 +196,7 @@
                     <p>Chat whith HapoLearn in Messenger</p>
                 </div>
             </div>
-            <i class='fab fa-facebook-messenger'></i>
+        <i onclick="hidde_show('chat_box')" class='fab fa-facebook-messenger'></i>
         </section>
         <footer class="hapolearn-footer">
             <div class="hapolearn-footer-img">
@@ -227,4 +227,5 @@
             <p class="hapolearn-footer-text">© 2020 HapoLearn, Inc. All rights reserved.</p>
         </footer>
     </body>
+    <script src="js/home.js"></script>
 </html>
