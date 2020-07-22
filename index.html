@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Hapo Learn</title>
         <link rel="stylesheet" type="text/css" href="css/home.css">
-        <script src="https://use.fontawesome.com/c591862069.js"></script>
+        <link rel="stylesheet" href="css/all.css">
     </head>
     <body>
         <header class="hapolearn-header">
@@ -88,7 +88,7 @@
                     <a href="#">Take This Course</a>
                 </div>
             </div>
-            <a href="#">View All Our Courses <img src="img/arrow.png" style="vertical-align: middle;"></a>
+            <a href="#">View All Our Courses<img src="img/arrow.png" style="vertical-align: middle;"></a>
         </section>
         <section class="hapolearn-why">
             <div class="hapolearn-why-left">
@@ -123,11 +123,11 @@
                         <div class="hapolearn-feedback-items-infor-person-text">
                             <h1>Nguyen Cong Chinh</h1>
                             <p>PHP</p>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
                         </div>
                     </div>
                 </div>
@@ -146,11 +146,11 @@
                         <div class="hapolearn-feedback-items-infor-person-text">
                             <h1>Tuan Tran Hoang</h1>
                             <p>Python</p>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
                         </div>
                     </div>
                 </div>
@@ -177,6 +177,27 @@
                 </div>
             </div>
         </section>
+        <section class="hapolearn-messenger">
+            <div class="hapolearn-messenger-chatbox" id="chat_box">
+                <div class="hapolearn-messenger-chatbox-text">
+                    <div class="hapolearn-messenger-chatbox-text-img">
+                        <img src="img/ower-small.png">
+                    </div>
+                    <div class="hapolearn-messenger-chatbox-text-chat">
+                        <h6>Hapo Learn</h6>
+                        <p>Hapo Learn xin chào bạn<br>Bạn có cần chúng tôi hỗ trợ gì không ?</p>
+                    </div>
+                    <div class="hapolearn-messenger-chatbox-text-close">
+                        <i class="fas fa-times-circle" onclick="closeDiv('chat_box')"></i>
+                    </div>
+                </div>
+                <div class="hapolearn-messenger-chatbox-login">
+                    <a href="#"><img src="img/messeger.png">Login to Messenger</a>
+                    <p>Chat whith HapoLearn in Messenger</p>
+                </div>
+            </div>
+        <i onclick="hidde_show('chat_box')" class='fab fa-facebook-messenger'></i>
+        </section>
         <footer class="hapolearn-footer">
             <div class="hapolearn-footer-img">
                 <img src="img/Hapo_Learn_white1.png">
@@ -199,11 +220,12 @@
                 </ul>
             </div>
             <div class="hapolearn-footer-icon">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                <i class="fab fa-facebook"></i>
+                <i class='fas fa-phone-alt'></i>
+                <i class="fas fa-envelope"></i>
             </div>
             <p class="hapolearn-footer-text">© 2020 HapoLearn, Inc. All rights reserved.</p>
         </footer>
     </body>
+    <script src="js/home.js"></script>
 </html>
