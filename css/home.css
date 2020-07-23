@@ -243,8 +243,8 @@ div.hapolearn-footer-ul a {
   font: bold 14px/20px UTM;
   color: #505353;
   text-align: center;
-  margin: 0 37px 0 37px;
-  -webkit-text-stroke: 0.3px #505353;
+  margin: 0 37px;
+  -webkit-text-stroke: 0.1px #505353;
 }
 
 .hapolearn-courses-items-text a {
@@ -604,7 +604,7 @@ div.hapolearn-footer-ul a {
 }
 
 .hapolearn-messenger-chatbox-login a:hover {
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hapolearn-messenger-chatbox-login a > img {
