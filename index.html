@@ -19,7 +19,7 @@
             </ul>
         </header>
         <section class="hapolearn-banner">
-            <h1>Learn Anytime, Anywhere<br><b>at HapoLearn <img src="img/ower.png" style="vertical-align: middle;">!</b></h1>
+            <h1>Learn Anytime, Anywhere<br><b>at HapoLearn <img src="img/ower.png" style="vertical-align: middle;"> !</b></h1>
             <p>Interactive lessons, "on-the-go"<br> practice, peer support.</p>
             <a href="#">Start Learning Now!</a>
         </section>
@@ -88,7 +88,7 @@
                     <a href="#">Take This Course</a>
                 </div>
             </div>
-            <a href="#">View All Our Courses<img src="img/arrow.png" style="vertical-align: middle;"></a>
+            <a href="#">View All Our Courses<img src="img/arrow.png"></a>
         </section>
         <section class="hapolearn-why">
             <div class="hapolearn-why-left">
@@ -101,7 +101,7 @@
                 <p><img src="img/checkmark.png">Interactive lessons, "on-the-go" practice, peer support.</p>
             </div>
             <div class="hapolearn-why-right">
-                <img src="img/laoptop-with-tablet.png" style="width: 100%">
+                <img src="img/laoptop-with-tablet.png">
             </div>
         </section>
         <section class="hapolearn-feedback">
@@ -110,6 +110,7 @@
             <div class="hapolearn-feedback-items">
                 <div class="hapolearn-feedback-items-infor">
                     <div class="hapolearn-feedback-items-infor-quote">
+                        <i class="fas fa-angle-left hapolearn-btn-left"></i>
                         <p>
                             <span class="hapolearn-quote-borderleft">
                                 "A wonderful course on how to start. 
@@ -140,6 +141,7 @@
                                 Very glad to have taken this course. Thank you Eddie Bryan."
                             </span>
                         </p>
+                        <i class="fas fa-angle-right hapolearn-btn-right"></i>
                     </div>
                     <div class="hapolearn-feedback-items-infor-person">
                         <img src="img/catt.png">
@@ -192,7 +194,7 @@
                     </div>
                 </div>
                 <div class="hapolearn-messenger-chatbox-login">
-                    <a href="#"><img src="img/messeger.png">Login to Messenger</a>
+                    <a href="#"><img src="img/messeger.png">Đăng nhập vào Messenger</a>
                     <p>Chat whith HapoLearn in Messenger</p>
                 </div>
             </div>
@@ -220,9 +222,12 @@
                 </ul>
             </div>
             <div class="hapolearn-footer-icon">
-                <i class="fab fa-facebook-f"></i>
-                <i class='fas fa-phone-alt'></i>
-                <i class="fas fa-envelope"></i>
+                <img src="img/fb.png" onclick="hidde_show('linkFB'); closeDiv('sdt'); closeDiv('mail')">
+                <a href="#" id="linkFB">facebook.com/tuyen.dung.haposoft</a>
+                <img src="img/phone.png" onclick="hidde_show('sdt'); closeDiv('linkFB'); closeDiv('mail')">
+                <p id="sdt">+84-85-645-9898</p>
+                <img src="img/mail.png" onclick="hidde_show('mail'); closeDiv('linkFB'); closeDiv('sdt')">
+                <p id="mail">info@haposoft.com</p>
             </div>
             <p class="hapolearn-footer-text">© 2020 HapoLearn, Inc. All rights reserved.</p>
         </footer>
