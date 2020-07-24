@@ -82,7 +82,7 @@ header.hapolearn-header a:hover {
   width: 100%;
   background-color: #454545;
   color: white;
-  font: normal 15px/18px UTM;
+  font: normal 18px/20px UTM;
   letter-spacing: -0.05em;
   height: 38px;
   text-align: center;
@@ -123,6 +123,10 @@ div.hapolearn-footer-ul li {
 div.hapolearn-footer-ul a {
   text-decoration: none;
   color: white;
+}
+
+div.hapolearn-footer-ul a:hover {
+  text-decoration: underline;
 }
 
 .hapolearn-footer-icon {
@@ -174,7 +178,7 @@ div.hapolearn-footer-ul a {
 }
 
 .hapolearn-banner h1 {
-  font: normal 46px/57px UTM;
+  font: normal 50px/61px UTM;
 }
 
 .hapolearn-banner b {
@@ -255,7 +259,7 @@ div.hapolearn-footer-ul a {
   font: bold 30px/37px UTM;
   color: #B2D235;
   margin: 10px 0 15px 0;
-  -webkit-text-stroke: 0.5px #B2D235;
+  -webkit-text-stroke: 0.9px #B2D235;
 }
 
 .hapolearn-courses-items-text p {
@@ -263,7 +267,6 @@ div.hapolearn-footer-ul a {
   color: #505353;
   text-align: center;
   margin: 0 37px;
-  -webkit-text-stroke: 0.1px #505353;
 }
 
 .hapolearn-courses-items-text a {
@@ -368,21 +371,27 @@ div.hapolearn-footer-ul a {
   justify-content: center;
 }
 
+.hapolearn-why-left-text {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: -150px;
+}
+
 .hapolearn-why-right > img {
   width: 100%;
 }
 
-.hapolearn-why-left > h1 {
+.hapolearn-why-left-text > h1 {
   font: bold 70px/86px UTM;
   color: white;
-  margin-top: -10%;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
   -webkit-text-stroke: 1.5px white;
 }
 
-.hapolearn-why-left > p {
+.hapolearn-why-left-text > p {
   font: normal 20px/25px UTM;
   color: white;
   display: flex;
@@ -390,7 +399,7 @@ div.hapolearn-footer-ul a {
   margin-top: 5px;
 }
 
-.hapolearn-why-left > p > img {
+.hapolearn-why-left-text > p > img {
   margin-right: 11px;
 }
 
@@ -529,8 +538,8 @@ div.hapolearn-footer-ul a {
   color: #90AB26;
   font: bold 30px/37px UTM;
   width: 377px;
-  height: 60px;
-  border-radius: 35px;
+  height: 80px;
+  border-radius: 40px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
