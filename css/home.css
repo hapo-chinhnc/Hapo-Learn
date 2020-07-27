@@ -27,11 +27,13 @@
 
 body {
   font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
 }
 
 .hapolearn-header {
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -258,7 +260,7 @@ div.hapolearn-footer-ul a:hover {
 .hapolearn-courses-items-text h1 {
   font: bold 30px/37px UTM;
   color: #B2D235;
-  margin: 10px 0 15px 0;
+  margin: 20px 0 15px 0;
   -webkit-text-stroke: 0.9px;
 }
 
@@ -349,41 +351,31 @@ div.hapolearn-footer-ul a:hover {
 
 .hapolearn-why {
   background-image: url(../img/background2black.png);
-  height: 740px;
+  background-size: cover;
+  height: auto;
   margin-top: 116px;
+}
+
+.hapolearn-why-content {
   display: flex;
-}
-
-.hapolearn-why-left {
-  width: 50%;
-  height: 100%;
-}
-
-.hapolearn-why-left > img {
-  margin-top: -225px;
-}
-
-.hapolearn-why-right {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  padding: 100px 0;
+}
+
+.hapolearn-why > img {
+  margin-top: -225px;
+  position: absolute;
 }
 
 .hapolearn-why-left-text {
   display: flex;
   flex-direction: column;
   float: right;
-  margin-top: -150px;
-}
-
-.hapolearn-why-right > img {
-  width: 100%;
+  margin-top: 130px;
 }
 
 .hapolearn-why-left-text > h1 {
-  font: bold 70px/86px UTM;
+  font: bold 65px/86px UTM;
   color: white;
   margin-bottom: 20px;
   display: flex;
@@ -428,7 +420,7 @@ div.hapolearn-footer-ul a:hover {
 
 .hapolearn-feedback-items-infor {
   width: 570px;
-  margin: 0 15px 0 15px;
+  margin: 0 15px;
 }
 
 .hapolearn-feedback-items-infor-quote {
@@ -446,6 +438,11 @@ div.hapolearn-footer-ul a:hover {
   background-color: #FFFFFF;
   border: 0.5px solid #C4C4C4;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.hapolearn-feedback-items-infor-quote > i:hover {
+  background-color: #d6d6d6;
 }
 
 .hapolearn-btn-right {
@@ -554,13 +551,14 @@ div.hapolearn-footer-ul a:hover {
 
 .hapolearn-statistic-data {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .hapolearn-statistic-data-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 100px;
 }
 
 .hapolearn-statistic-data-text > h1 {
@@ -706,9 +704,4 @@ div.hapolearn-footer-ul a:hover {
 .hapolearn-messenger > i:hover {
   color: #C4C4C4;
   background-color: #1b54a3;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
